@@ -83,7 +83,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`ᴇʟʟ ʀᴏʙᴏᴛ sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋsᴀɴᴀᴋᴀɴ ɢᴄᴀsᴛ ᴛᴜɴɢɢᴜ sᴇʙᴇɴᴛᴀʀ...`")
+    kk = await event.eor("`Sabarr yaa kalau limit jangan salahin ell ngentot`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
