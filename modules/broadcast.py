@@ -43,7 +43,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("ᴇʟʟ ʀᴏʙᴏᴛ sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋsᴀɴᴀᴋᴀɴ ɢᴄᴀsᴛ ᴛᴜɴɢɢᴜ sᴇʙᴇɴᴛᴀʀ...`")
     er = 0
     done = 0
     err = ""
@@ -83,7 +83,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`ᴇʟʟ ʀᴏʙᴏᴛ sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋsᴀɴᴀᴋᴀɴ ɢᴄᴀsᴛ ᴛᴜɴɢɢᴜ sᴇʙᴇɴᴛᴀʀ...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -131,7 +131,7 @@ async def gblacker(event, type_):
     chat_id = int(args[1]) if len(args) == 2 else event.chat_id
     if type_ == "add":
         add_gblacklist(chat_id)
-        await event.eor(f"**Ditambahkan ke BL-GCAST**\n`{chat_id}`")
+        await event.eor(f"**ᴇʟʟ ʀᴏʙᴏᴛ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴅᴀʟᴀᴍ ᴅᴀғᴛᴀʀ -ʙʟ**\n`{chat_id}`")
     elif type_ == "remove":
         rem_gblacklist(chat_id)
-        await event.eor(f"**Dihapus dari BL-GCAST**\n`{chat_id}`")
+        await event.eor(f"**ᴇʟʟ ʀᴏʙᴏᴛ ᴍᴇɴɢʜᴀᴘᴜs ᴅᴀʟᴀᴍ ᴅᴀғᴛᴀʀ -ʙʟ**\n`{chat_id}`")
