@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
+  <img src="https://telegra.ph/file/312623ecfa3eb3979220b.jpg">
 </p>
 <h1 align="center">
   <b>иᴀʏᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
